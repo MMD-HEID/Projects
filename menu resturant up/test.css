@@ -39,6 +39,7 @@ header {
     }
 
     button {
+        background-color: white;
         height: 35px;
         width: 150px;
         position: absolute;
@@ -48,8 +49,9 @@ header {
         border: solid 1px #a7a29f;
         box-shadow: 2px 2px 2px #cdcdcd;
         /*align-items: center;*/
+        /*z-index: 50;*/
         img {
-            left: 0;
+            /*left: 0;*/
             top: -4px;
             position: absolute;
             width: 20px;
@@ -57,6 +59,11 @@ header {
         }
     }
 }
+/*button:hover{*/
+/*    background-color: orangered;*/
+/*    color: #000000;*/
+
+/*}*/
 
 .order-card {
     height: 250px;
@@ -119,4 +126,26 @@ header {
 .price {
     color: #ba683f;
     padding-bottom: 15px;
+}
+.sabad{
+    left: 0;
+    width:20px ;
+    height:20px ;
+    position: absolute;
+}
+.show {
+    display: none;
+}
+.min{
+    width:15px ;
+    height:15px ;
+    left: 0;
+}
+.add{
+    width:15px ;
+    height:15px ;
+    right: 0;
+}
+.select{
+    background-color: orangered;
 }

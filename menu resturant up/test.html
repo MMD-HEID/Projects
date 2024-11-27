@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>menu</title>
+    <link rel="stylesheet" type="text/css" href="test.css"/>
+    <script src="test.js" lang="javascript" type="text/javascript" defer="defer"></script>
+</head>
+<body>
+<header>Desserts</header>
+<div id="div_main" class="div_main">
+    <section id="section_menu" class="section_menu">
+        <table id="table_menu" class="table_menu">
+            <tr>
+                <td><img src="assets/images/image-waffle-desktop.jpg" alt="waffle">
+                    <button onclick="add(this)" class="btn_waffle btn"><img src="assets/images/icon-decrement-quantity.svg"
+                                                                        alt="" class="min show" id="min1" onclick="min(this)"><img
+                            class="sabad"
+                            src="assets/images/icon-add-to-cart.svg"
+                            alt="">
+                        <p>Add to Cart</p><img alt="" id="plus1" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+                <td><img src="assets/images/image-creme-brulee-desktop.jpg" alt="creme">
+                    <button onclick="add(this)" id="btn_creme btn"><img src="assets/images/icon-decrement-quantity.svg"
+                                                                    alt="" class="min show" id="min2" onclick="min(this)"><img class="sabad"
+                                                                                                           src="assets/images/icon-add-to-cart.svg"
+                                                                                                           alt="">
+                        <p>Add to Cart</p><img alt="" id="plus2" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+                <td><img src="assets/images/image-macaron-desktop.jpg " alt="macaron">
+                    <button onclick="add(this)" id="btn_macaron btn"><img src="assets/images/icon-decrement-quantity.svg"
+                                                                      alt="" class="min show" id="min3" onclick="min(this)"><img
+                            class="sabad"
+                            src="assets/images/icon-add-to-cart.svg"
+                            alt="">
+                        <p>Add to Cart</p><img alt="" id="plus3" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+            </tr>
+            <tr>
+                <td class="pr-name">Waffle</td>
+                <td class="pr-name">Creme Brulee</td>
+                <td class="pr-name">Macaron</td>
+            </tr>
+            <tr>
+                <td class="pr-description">Waffle with Berries</td>
+                <td class="pr-description">Vanilla Bean Creme Brulee</td>
+                <td class="pr-description">Macaron Mix of Five</td>
+            </tr>
+            <tr>
+                <td class="price">$6.50</td>
+                <td class="price">$7.00</td>
+                <td class="price">$8.00</td>
+            </tr>
+            <tr>
+                <td><img class="img-pr" src="assets/images/image-tiramisu-desktop.jpg" alt="tiramisu">
+                    <button onclick="add(this)"class="btn_tiramisu btn" ><img src="assets/images/icon-decrement-quantity.svg" alt=""
+                                                     class="min show" id="min4" onclick="min(this)"><img
+                            src="assets/images/icon-add-to-cart.svg" class="sabad" alt="">
+                        <p>Add to Cart</p><img alt="" id="plus4" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+                <td><img src="assets/images/image-baklava-desktop.jpg" alt="baklava">
+                    <button onclick="add(this)"class="btn_baklava btn" ><img src="assets/images/icon-decrement-quantity.svg" alt=""
+                                                     class="min show" id="min5" onclick="min(this)"><img
+                            src="assets/images/icon-add-to-cart.svg" class="sabad" alt="">
+                        <p>Add to Cart</p><img alt="" id="plus5" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+                <td><img src="assets/images/image-meringue-desktop.jpg" alt="meringue">
+                    <button onclick="add(this)"class="btn_meringue btn" ><img src="assets/images/icon-decrement-quantity.svg" alt=""
+                                                     class="min show" id="min6" onclick="min(this)"><img
+                            src="assets/images/icon-add-to-cart.svg" class="sabad" alt="">
+                        <p>Add to Cart</p><img alt="" id="plus6" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+            </tr>
+            <tr>
+                <td class="pr-name">Tiramisu</td>
+                <td class="pr-name">Baklava</td>
+                <td class="pr-name">Pie</td>
+            </tr>
+            <tr>
+                <td class="pr-description">Classic Tiramisu</td>
+                <td class="pr-description">Pistachio Baklava</td>
+                <td class="pr-description">Lemon Meringue Pie</td>
+            </tr>
+            <tr>
+                <td class="price">$5.50</td>
+                <td class="price">$4.00</td>
+                <td class="price">$5.00</td>
+            </tr>
+            <tr>
+                <td><img src="assets/images/image-cake-desktop.jpg" alt="Cake">
+                    <button onclick="add(this)" class="btn_cake btn "><img src="assets/images/icon-decrement-quantity.svg" alt=""
+                                                     class="min show" id="min7" onclick="min" onclick="min(this)"><img
+                            src="assets/images/icon-add-to-cart.svg" class="sabad" alt="">
+                        <p>Add to Cart</p><img alt="" id="plus7" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+                <td><img src="assets/images/image-brownie-desktop.jpg" alt="Brownie">
+                    <button onclick="add(this)" class="btn_brownie btn"><img src="assets/images/icon-decrement-quantity.svg" alt=""
+                                                     class="min show" id="min8" onclick="min(this)"><img
+                            src="assets/images/icon-add-to-cart.svg" class="sabad" alt="">
+                        <p>Add to Cart</p><img alt="" id="plus8" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+                <td><img src="assets/images/image-panna-cotta-desktop.jpg" alt="Panna">
+                    <button onclick="add(this)" class="btn_panna btn"><img src="assets/images/icon-decrement-quantity.svg" alt=""
+                                                     class="min show" id="min9" onclick="min(this)"><img
+                            src="assets/images/icon-add-to-cart.svg" class="sabad" alt="">
+                        <p>Add to Cart</p><img alt="" id="plus9" class="add show"
+                                               src="assets/images/icon-increment-quantity.svg" onclick="plus(this)"></button>
+                </td>
+            </tr>
+            <tr>
+                <td class="pr-name">Cake</td>
+                <td class="pr-name">Brownie</td>
+                <td class="pr-name">Panna Cotta</td>
+            </tr>
+            <tr>
+                <td class="pr-description">Red Velvet Cake</td>
+                <td class="pr-description">Salted Caramel Brownie</td>
+                <td class="pr-description">Vanilla Panna Cotta</td>
+            </tr>
+            <tr>
+                <td class="price">$4.50</td>
+                <td class="price">$5.50</td>
+                <td class="price">$6.50</td>
+            </tr>
+        </table>
+    </section>
+    <section class="order-card">
+        <h2 id="header">Your Cart (<span id="order-ctr">0</span>)</h2>
+        <img src="assets/images/illustration-empty-cart.svg" alt="cart">
+        <p>Your added items will appear here</p>
+    </section>
+
+</div>
+</body>
+</html>
