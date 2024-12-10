@@ -1,0 +1,39 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 10%;
+}
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #bdb1a8;
+    /*text-align: center;*/
+    padding-left: 1%;
+    padding-top: 1%;
+    display: flex;
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: x-large;
+        margin: 10px;
+        color: #200a0a;
+
+
+    }
+    div{
+        font-size: xx-large;
+    }
+    a:hover{
+        color: seagreen;
+    }
+
+
+}

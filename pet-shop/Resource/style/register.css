@@ -1,0 +1,124 @@
+html, body,form {
+    height: 100%;
+    width: 100%;
+    direction: rtl;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"B Nazanin" , 'Yekan', sans-serif;
+    text-shadow: #200a0a 2px 1px 5px;
+    /*background-color: #d3c8bc;*/
+
+}
+*::selection {
+    background: white;
+    color: #bdb1a8;
+}
+
+#btnRegister {
+    width: 90px;
+    height: 35px;
+    color: #200a0a;
+    background-color: #bdb1a8;
+    border: #200a0a solid 1px;
+    border-radius: 10%;
+    margin-right: 215px;
+    margin-top: 30px;
+    font-size: large;
+    font-family:"B Nazanin" , 'Yekan', sans-serif;
+    text-shadow: #200a0a 2px 1px 5px;
+    box-shadow: #200a0a 3px 3px 11px;
+
+
+}
+
+input:focus {
+    background-color: #bdb1a8;
+    /*color: #200a0a;*/
+    border: none;
+    box-shadow: #200a0a 3px 3px 6px;
+    outline: none;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 30px;
+    box-shadow: #200a0a 3px 3px 6px;
+}
+
+table {
+    margin-right: 20px;
+
+}
+
+.divMain {
+    position: absolute;
+    border: 1px solid #200a0a;
+    width: 35%;
+    height: 50%;
+    background-color: #e6e4e2;
+    /*margin: 150px auto;*/
+    margin-top: 100px;
+    margin-right: 525px;
+    border-radius: 10px;
+    box-shadow: rgba(32, 10, 10, 0.49) 3px 3px 11px ,rgba(32, 10, 10, 0.49) -3px -3px 15px;
+
+}
+
+header{
+    height: 10%;
+}
+.header1{
+    width: 100%;
+    height: 100%;
+    background-color: #bdb1a8;
+    /*text-align: center;*/
+    padding-left: 1%;
+    padding-top: 1%;
+    display: flex;
+    box-shadow: rgba(32, 10, 10, 0.49) 3px 3px 11px;
+    direction: ltr;
+
+
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: x-large;
+        /*margin: 10px;*/
+        margin-right: 10px;
+
+        color: #200a0a;
+
+
+
+    }
+    div{
+        font-size: x-large;
+        margin-right: 10px;
+    }
+    a:hover{
+        color: seagreen;
+    }
+
+
+}
+
+#h2{
+    margin-top: 50px;
+    position: absolute;
+    margin-right: 745px;
+    color: #200a0a;
+}
+
