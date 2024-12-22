@@ -1,0 +1,91 @@
+#link1 {
+    color: #00ADB5;
+}
+
+.divMain {
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.divNI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-direction: column;
+    flex: 1;
+}
+
+.divImg {
+    justify-content: left;
+    flex: 2;
+}
+
+#name {
+    font-size: xx-large;
+    float: right;
+    color: white;
+    margin-top: 50%;
+    margin-left: 3%;
+    flex: 1 1 10%;
+}
+
+#Id {
+    font-size: xx-large;
+    color: white;
+    margin-left: 3%;
+    flex: 1 1 90%;
+}
+
+#imageProfile {
+    border-radius: 50%;
+    width: 50%;
+    background-color: #00ADB5;
+    margin-left: 49%;
+}
+
+#btnShow {
+    cursor: pointer;
+    margin-top: 19%;
+    border: none;
+    color: white;
+    background-color: rgba(32, 32, 32, 0.51);
+    width: 10%;
+    height: 5%;
+    box-shadow: #222831 6px 6px 15px, #222831 -6px -6px 15px;
+}
+
+.container {
+    display: none; /* Initially hidden */
+    opacity: 0;
+    transform: translateY(20px); /* Start slightly below its final position */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.container.show {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0); /* Final position */
+}
+
+.divNI, .divImg {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-50px); /* Start off-screen */
+    animation: fadeInSlide 0.6s ease forwards;
+}
+
+.divImg {
+    animation-delay: 0.2s; /* Delayed animation for the image */
+}
+
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateX(-50px); /* Slide in from the left */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* Final position */
+    }
+}

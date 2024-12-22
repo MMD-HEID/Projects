@@ -1,0 +1,111 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.div-header {
+    height: 7%;
+    width: 100%;
+    box-shadow: #787777 3px 3px 20px;
+    padding: 12.5px;
+
+    a {
+        text-decoration: none;
+        margin: 5px;
+        float: right;
+        color: #787777;
+
+    }
+
+    img {
+        float: right;
+        width: 150px;
+    }
+
+    button {
+        border-radius: 30px;
+
+
+    }
+
+}
+.divPic1{
+    background-image: url("../Image/images.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    position: fixed;
+    z-index: -1;
+}
+#signIn {
+    font-size: medium;
+    color: white;
+    background-color: #c90608;
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+
+#logIn {
+    border: 0.5px solid black;
+    font-size: medium;
+    background-color: transparent;
+    width: 70px;
+    height: 40px;
+}
+
+.divMain {
+    height: 100%;
+    width: 100%;
+
+    /*img {*/
+
+    /*    !*display: none;*!*/
+    /*    width: 100%;*/
+    /*    height: 50%;*/
+    /*    position: fixed;*/
+    /*    z-index: -1;*/
+    /*}*/
+}
+
+.divTitle {
+    height: 50%;
+    width: 100%;
+    background-color: transparent;
+    /*background: linear-gradient(-45deg, rgba(255, 20, 147, 0.38), rgba(0, 0, 255, 0.43), rgba(0, 128, 0, 0.42));*/
+    /*opacity: 50%;*/
+    /*background-color: transparent;*/
+    z-index: 11;
+}
+
+.divT1 {
+    margin-top: 200px;
+    margin-left: calc(100% - 1050px);
+    position: absolute;
+    z-index: 11;
+    /*background-color: #c90608;*/
+    color: white;
+}
+
+.divT2 {
+    margin-top: 150px;
+    padding-left: calc(100% - 1075px);
+    z-index: 11;
+    color: white;
+    position: absolute;
+}
+.btnStart{
+    position: absolute;
+
+}
+.div2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}

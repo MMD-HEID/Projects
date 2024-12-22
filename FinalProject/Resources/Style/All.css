@@ -1,0 +1,146 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divHeader {
+    position: fixed;
+    width: 100%;
+    height: 7.5%;
+    background: #222831;
+    box-shadow: #222831 6px 6px 15px;
+}
+
+.divLinks {
+    margin-top: 15px;
+}
+
+.divLinks a {
+    text-decoration: none;
+    font-size: x-large;
+    margin-left: 20px;
+    color: #EEEEEE;
+}
+
+.divMain {
+    width: 100%;
+    height: 92.5%;
+    background: linear-gradient(-45deg, #451100, #50001e, #00384c, #004737);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.divFooter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7.5%;
+    background: #222831;
+}
+
+.divFooter .divLogo {
+    box-shadow: #222831 -6px -6px 15px;
+    height: 100%;
+    padding: 15px;
+    flex: 1;
+}
+
+.divFooter .divLogo img {
+    border-radius: 50%;
+    height: 100%;
+    cursor: help;
+}
+
+.divFooter .cP {
+    flex: 1;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-top: 1%;
+    font-size: xx-large;
+}
+
+.divFooter .nP {
+    color: rgba(255, 255, 255, 0.5);
+    flex: 1;
+    margin-right: 10px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Header */
+    .divHeader {
+        height: 7%; /* Increase height for better spacing on small screens */
+    }
+
+    .divLinks {
+        display: flex;
+        flex-direction: column; /* Stack links vertically */
+        align-items: center;    /* Center-align links */
+        margin-top: 5px;
+    }
+
+    .divLinks a {
+        font-size: large;       /* Smaller font size for links */
+        margin: 5px 0;          /* Add vertical spacing */
+    }
+
+    /* Main Content */
+    .divMain {
+        padding: 20px;          /* Add padding for small screens */
+    }
+
+    /* Footer */
+    .divFooter {
+        flex-direction: column; /* Stack footer elements vertically */
+        align-items: center;
+        height: auto;           /* Allow footer height to grow naturally */
+        padding: 10px 0;        /* Add padding for spacing */
+    }
+
+    .divFooter .divLogo {
+        height: 50px;           /* Reduce logo size */
+        margin-bottom: 10px;    /* Add spacing below the logo */
+    }
+
+    .divFooter .divLogo img {
+        height: 100%;           /* Ensure logo fits within its container */
+    }
+
+    .divFooter .cP, .divFooter .nP {
+        font-size: medium;      /* Reduce font size */
+        text-align: center;     /* Center-align text */
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Extra adjustments for very small screens */
+    .divLinks a {
+        font-size: large;      /* Further reduce font size for links */
+    }
+
+    .divFooter .cP, .divFooter .nP {
+        font-size: small;       /* Smaller footer text */
+    }
+}

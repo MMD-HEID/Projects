@@ -1,151 +1,127 @@
-body, html, form {
-    width: 100%;
-    height: 100%;
+body, html {
     background-color: #fcf8f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 * {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
-.div_main {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    display: flex;
-}
-
 header {
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 10px;
+    padding: 1%;
+    background-color: #faf6f3;
+    text-align: start;
 }
 
-
-.table_menu {
-    width: 80%;
-    padding-left: 80px;
-    position: relative;
-
-    img {
-        margin: 10px;
-        border-radius: 10px;
-        width: 300px;
-        height: 300px;
-    }
-
-    button {
-        background-color: white;
-        height: 35px;
-        width: 150px;
-        position: absolute;
-        margin-top: 290px;
-        margin-left: -225px;
-        border-radius: 20px;
-        border: solid 1px #a7a29f;
-        box-shadow: 2px 2px 2px #cdcdcd;
-        /*align-items: center;*/
-        /*z-index: 50;*/
-        img {
-            /*left: 0;*/
-            top: -4px;
-            position: absolute;
-            width: 20px;
-            height: 20px;
-        }
-    }
+.div_main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
-/*button:hover{*/
-/*    background-color: orangered;*/
-/*    color: #000000;*/
 
-/*}*/
+.section_menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    flex: 3;
+}
 
-.order-card {
-    height: 250px;
-    width: 300px;
+.menu-item {
     background-color: white;
-    right: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1rem;
+    flex: 1 1 calc(30% - 1rem);
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
-    margin-top: -40px;
-    border-radius: 10px;
-    > #header {
-        position: relative;
-        margin-left: 0;
-    }
-    img{
-        margin: auto;
-        /*text-align: center;*/
+    align-items: center;
+}
 
-    }
-     p{
-         text-align: center;
-         margin-bottom: 30px;
-         font-size: small;
-         color: #a29190;
-     }
-    h2{
-        margin-top: 15px;
-        font-size: x-large;
-        padding-left: 20px;
-        color: #c83c10;
-
-    }
-
-
-    /*justify-content: left;*/
-
-    > div {
-        margin-left: 125px;
-        position: absolute;
-        justify-items: center;
-
-
-    }
-
+.pr-image {
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
 }
 
 .pr-name {
-    color: #b3a9a7;
-    font-size: small;
-    padding-top: 30px;
+    color: #332928;
+    margin: 1rem 0 0.5rem;
 }
 
 .pr-description {
-    color: #332928;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    color: #b3a9a7;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
 }
 
 .price {
     color: #ba683f;
-    padding-bottom: 15px;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
-.sabad{
-    left: 0;
-    width:20px ;
-    height:20px ;
+
+button {
+    width: 35%;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid #a7a29f;
+    box-shadow: 2px 2px 2px #cdcdcd;
+    position: relative;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f7e7e1;
+}
+
+.sabad {
     position: absolute;
+    width: 75%;
+    height: 75%;
+    left: -35px;
 }
+
+.add, .min {
+    width: 15px;
+    height: 15px;
+    display: none;
+}
+
 .show {
     display: none;
 }
-.min{
-    width:15px ;
-    height:15px ;
-    left: 0;
+
+.order-card {
+    width: 20%;
+    height: 20%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 1rem;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
 }
-.add{
-    width:15px ;
-    height:15px ;
-    right: 0;
+
+.order-card img {
+    margin: 1rem auto;
+    display: block;
 }
-.select{
-    background-color: orangered;
+
+.order-card h2 {
+    color: #c83c10;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.order-card span {
+    color: #a29190;
+    font-size: 1rem;
 }
