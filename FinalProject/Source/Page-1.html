@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page-1</title>
     <link rel="stylesheet" href="../Resources/Style/Page-1.css">
     <link rel="stylesheet" href="../Resources/Style/All.css">
+    <script src="../Resources/Script/Page-1.js" defer="defer" type="text/javascript" lang="javascript"></script>
 </head>
 <body>
 <div class="divHeader">
@@ -19,6 +21,36 @@
 </div>
 
 <div class="divMain">
+    <div class="divHobbies hidden">
+
+        <img id="imgBetta" src="../Resources/Image/Betta.png" alt="BettaFish">
+        <p class="descBetta">The Siamese fighting fish, commonly known as the betta, is a freshwater fish native to
+            Southeast Asia, namely Cambodia, Laos, Myanmar, Malaysia, Indonesia, Thailand, and Vietnam.</p>
+        <img id="imgGaming" src="../Resources/Image/Gaming_room.jpg" alt="Gaming">
+        <p class="descGaming">Playing games always has been calming for me so now I do my best to make everyone have
+            fun!<br/>I've been streaming on
+            <a href="https://www.aparat.com/KILLERM_82/live">Aparat</a> It's been fun!</p>
+        <button class="btnCls"><span></span></button>
+    </div>
+    <div class="divContacts hidden">
+        <div id="Instagram">
+            <img src="../Resources/Icon/instagram.png" alt="Instagram" class="instagram">
+            <a class="instagramId" href="#">Instagram</a>
+        </div>
+        <div id="Telegram">
+            <img src="../Resources/Icon/telegram.png" alt="Telegram" class="telegram">
+            <a class="telegramId" href="#">Telegram</a>
+        </div>
+        <button class="btnCls"><span></span></button>
+    </div>
+    <div class="divCover">
+        <canvas id="galaxyCanvas"></canvas>
+        <div class="interactiveElements">
+            <div class="planet" id="innovator" data-info="Contacts"></div>
+            <div class="planet" id="explorer" data-info="Hobbies"></div>
+            <div class="hidden" id="blackHole" data-info="Secret Fun Fact!"></div>
+        </div>
+    </div>
 
 </div>
 

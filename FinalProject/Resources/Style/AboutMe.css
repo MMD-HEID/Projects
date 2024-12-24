@@ -1,91 +1,144 @@
+/* Link Styling */
 #link1 {
     color: #00ADB5;
 }
 
-.divMain {
-    padding-top: 4%;
+/* Show Flex */
+.show {
     display: flex;
-    justify-content: center;
 }
 
+/* Container Styling */
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Personal Information Section */
 .divNI {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0;
-    flex-direction: column;
-    flex: 1;
+    #name, #Id {
+        cursor: default;
+        color: white;
+        font-size: larger;
+        text-align: center;
+    }
 }
 
+/* Profile Image Section */
 .divImg {
-    justify-content: left;
-    flex: 2;
+    align-content: center;
+    text-align: center;
+
+    #imageProfile {
+        border-radius: 50%;
+        width: 50%;
+    }
 }
 
-#name {
-    font-size: xx-large;
-    float: right;
-    color: white;
-    margin-top: 50%;
-    margin-left: 3%;
-    flex: 1 1 10%;
-}
-
-#Id {
-    font-size: xx-large;
-    color: white;
-    margin-left: 3%;
-    flex: 1 1 90%;
-}
-
-#imageProfile {
-    border-radius: 50%;
-    width: 50%;
-    background-color: #00ADB5;
-    margin-left: 49%;
-}
-
+/* Button Styling */
 #btnShow {
-    cursor: pointer;
-    margin-top: 19%;
+    box-shadow: 6px 6px 15px #222831, -6px -6px 15px #222831;
     border: none;
     color: white;
-    background-color: rgba(32, 32, 32, 0.51);
-    width: 10%;
-    height: 5%;
-    box-shadow: #222831 6px 6px 15px, #222831 -6px -6px 15px;
+    background: #222831;
+    font-size: medium;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
-.container {
-    display: none; /* Initially hidden */
-    opacity: 0;
-    transform: translateY(20px); /* Start slightly below its final position */
-    transition: opacity 0.5s ease, transform 0.5s ease;
+#btnShow:hover {
+    animation: btn1 2s ease-in both;
 }
 
-.container.show {
-    display: flex;
-    opacity: 1;
-    transform: translateY(0); /* Final position */
+/* Hide Class */
+.hide {
+    display: none;
 }
 
-.divNI, .divImg {
-    opacity: 0; /* Initially hidden */
-    transform: translateX(-50px); /* Start off-screen */
-    animation: fadeInSlide 0.6s ease forwards;
+/* Large Screens (1280px and up) */
+@media screen and (min-width: 1280px) {
+    .divMain {
+        width: 100%;
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .divNI, .divImg {
+            flex: 1;
+        }
+    }
 }
 
-.divImg {
-    animation-delay: 0.2s; /* Delayed animation for the image */
+/* Medium Screens (430px to 1280px) */
+@media screen and (min-width: 430px) and (max-width: 1280px) {
+    .divMain {
+        height: 90%;
+    }
+
+    .container {
+        display: none;
+        flex-direction: row;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+
+        .divNI, .divImg {
+            flex: 1;
+            text-align: center;
+            align-items: center;
+        }
+    }
+
+    #btnShow {
+        font-size: small;
+        width: 25%;
+        margin-top: 60%;
+        margin-left: 37.5%;
+    }
 }
 
-@keyframes fadeInSlide {
+/* Small Screens (below 430px) */
+@media screen and (max-width: 430px) {
+    .divMain {
+        flex-direction: row;
+        align-items: center;
+
+        height: 90%;
+    }
+
+    #btnShow {
+        font-size: small;
+        width: 40%;
+        margin-left: 35%;
+        margin-top: 90%;
+    }
+
+    .container {
+        display: none;
+        flex-direction: column-reverse;
+
+        .divNI, .divImg {
+            flex: 1;
+            text-align: center;
+            align-items: center;
+        }
+    }
+}
+
+/* Button Hover Animation */
+@keyframes btn1 {
     from {
-        opacity: 0;
-        transform: translateX(-50px); /* Slide in from the left */
+        box-shadow: 6px 6px 15px #222831, -6px -6px 15px #222831;
     }
     to {
-        opacity: 1;
-        transform: translateX(0); /* Final position */
+        box-shadow: 6px 6px 15px #00ffff, -6px -6px 15px #00ffff;
     }
 }
