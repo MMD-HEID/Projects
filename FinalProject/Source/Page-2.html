@@ -21,6 +21,8 @@
 </div>
 
 <div class="divMain">
+    <h1 class="title">Facts About Betta Fish</h1>
+
     <span class="spnLang">Farsi</span>
     <label class="switch">
         <input id="langChk" type="checkbox">
@@ -28,19 +30,35 @@
     </label>
     <span class="spnLang">English</span>
     <div class="divContent">
-        <div class="divImgP1" id="">
+        <div class="divInfo fade" id="C1">
             <img src="../Resources/Image/BettaBubbleNest.jpg" alt="phase1" class="imgP1">
-            <p class="pPE">At First You Got To Introduce The Male Betta To The Breeding Tank So He Can Prepare The
-                Bubble Nest.</p>
-            <p class="pPP">ابتدا باید ماهی بتای نر را با اکواریوم جفت گیری آشنا کرده تا او لانه حبابی را آماده کند.</p>
+            <p class="pPE hidden">At First You Got To Introduce The Male Betta To The Breeding Tank So He Can Prepare The Bubble Nest</p>
+            <p class="pPP show">ابتدا باید ماهی بتای نر را با اکواریوم جفت گیری آشنا کرده تا او لانه حبابی را آماده کند.</p>
+        </div>
+        <div class="divInfo" id="C2">
+            <img src="../Resources/Image/BettaBreed.jpg" alt="phase2" class="imgP2">
+            <p class="pPE hidden">Then We Introduce The Female And After A Few Days In Separation, They Will Breed</p>
+            <p class="pPP show">سپس ماده را به نر معرفی میکنیم و بعد از چند روز جدایی جفتگیری انجام میشود.</p>
+        </div>
+        <div class="divInfo" id="C3">
+            <img src="../Resources/Image/BettaFry.jpg" alt="phase3" class="imgP3">
+            <p class="pPE hidden">After Almost A Week The Fry Will Hatch. Now The Father Will Take Care Of Them And The Female Should Be Separated</p>
+            <p class="pPP show">تقریبا بعد از یک هفته بچه فایتر ها به دنیا می آیند. <br/>
+                الان ماهی نر از بچه ها نگهداری میکند و ماهی ماده باید جدا شده باشد.</p>
+        </div>
+        <div class="divInfo" id="C4">
+            <img src="../Resources/Image/TwoMonthBetta.jpg" alt="phase4" class="imgP4">
+            <p class="pPE hidden">After Two Months This Will Be The Baby Fighters And After 6 Months They Will Be Adults</p>
+            <p class="pPP show">بعد از دو ماه بچه فایتر ها این شکلی میشوند و بعد از شش ماه بالغ میشوند.</p>
         </div>
         <div class="dotContainer">
-            <div id="divDot1" class="divDot"></div>
-            <div id="divDot2" class="divDot"></div>
-            <div id="divDot3" class="divDot"></div>
-            <div id="divDot4" class="divDot"></div>
+            <div id="divDot1" class="divDot" onclick="showSlide(0)"></div>
+            <div id="divDot2" class="divDot" onclick="showSlide(1)"></div>
+            <div id="divDot3" class="divDot" onclick="showSlide(2)"></div>
+            <div id="divDot4" class="divDot" onclick="showSlide(3)"></div>
         </div>
     </div>
+
 </div>
 
 <div class="divFooter">

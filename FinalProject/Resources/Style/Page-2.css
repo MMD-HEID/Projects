@@ -1,5 +1,11 @@
+/* Highlight active link */
 #link3 {
     color: #00ADB5;
+}
+
+/* Fade effect class */
+.fade {
+    display: inherit;
 }
 
 /* The switch - the box around the slider */
@@ -63,57 +69,225 @@ input:checked + .slider:before {
 }
 
 .divContent {
-    .divImgP1 {
-        flex: 4;
-        background: #00ADB5;
-        margin-left: 15%;
-        width: 70%;
-        display: flex;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.divInfo {
+    flex: 4;
+    width: 50%;
+    display: none; /* Hide by default */
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /*padding: 20px;*/
+    border-radius: 10px;
+    transition: opacity 0.5s ease;
+    min-height: 400px;
+    height: 400px;
+    /*border: #222831 solid 1px;*/
+}
+
+.divInfo.active {
+    display: flex;
+    opacity: 1;
+}
+
+/* Images within slides */
+.imgP1, .imgP2, .imgP3, .imgP4 {
+    border: 5px #222831 solid;
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Add spacing below the image */
+}
+
+.imgP4, .imgP3, .imgP2, .imgP1 {
+    height: 250px; /* Ensure aspect ratio is maintained */
+}
+
+/* Text content in slides */
+.pPE, .pPP {
+    color: white;
+    width: 50%;
+    margin-top: 10px; /* Add spacing above text */
+    font-family: "B Nazanin", "B Esfehan", serif;
+}
+
+
+/* Dot navigation container */
+.dotContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+/* Individual dot */
+.divDot {
+    width: 10px;
+    height: 10px;
+    background-color: dimgray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Highlight active dot */
+.divDot:hover {
+    background-color: #00ADB5;
+}
+
+/* Main container */
+.divMain {
+    padding-left: 1%;
+}
+
+.spnLang {
+    margin-left: 10px;
+    margin-top: -10px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Hidden and visible text classes */
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+@media only screen and (min-width: 1280px){
+
+
+    .divInfo {
+        width: 50%;
+        height: 80%;
+        margin: 2%;
+        display: block;
         flex-direction: column;
-        align-content: center;
-        text-align: center;
         align-items: center;
-        flex-wrap: wrap;
+        text-align: center;
+    }
 
-        .imgP1 {
+    .imgP1, .imgP2, .imgP3, .imgP4 {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
 
-            width: 30%;
-            border-radius: 50%;
-        }
-
-        .pPE {
-            width: 50%;
-        }
-
-        .pPP {
-            width: 50%;
-        }
+    .pPE , .pPP{
+        height: 50px;
+        font-size: large;
     }
 
     .dotContainer {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        flex-direction: row;
+        margin-top: 2%;
+    }
 
-        .divDot {
-            width: 10px;
-            height: 10px;
-            background-color: dimgray;
-            border-radius: 50%;
-            margin-top: 0.5%;
-            margin-left: 0.5%;
-        }
+    .divDot {
+        width: 10px;
+        height: 10px;
+        background-color: dimgray;
+        border-radius: 50%;
+        margin-left: 5px;
     }
 }
-.divMain{
-    .spnLang{
-        /*margin-left: 10px;*/
-        /*margin-top: -10px;*/
-        color: white;
-        font-size: large;
-        font-weight: bold;
 
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+
+
+    .divInfo {
+        width: 80%;
+        height: 70%;
+        margin: 1%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
+
+    .imgP1, .imgP2, .imgP3, .imgP4 {
+        width: 700px;
+        height: 700px;
+        border-radius: 50%;
+    }
+    .pPE, .pPP {
+        font-size: xx-large;
+        height: 250px;
+    }
+
+    .dotContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .divDot {
+        width: 10px;
+        height: 10px;
+        background-color: dimgray;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .divInfo {
+        width: 70%;
+        height: 80%;
+        margin: 1%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pPE, .pPP {
+        height: 550px;
+        font-size: xxx-large;
+    }
+
+    .imgP1, .imgP2, .imgP3, .imgP4 {
+        width: 400px;
+        height: 400px;
+        border-radius: 50%;
+    }
+
+    .dotContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .divDot {
+        width: 20px;
+        height: 20px;
+        background-color: dimgray;
+        border-radius: 50%;
+        margin-left: 5px;
+    }
+}
+.title{
+    color: gray;
+    text-align: center;
+
 }

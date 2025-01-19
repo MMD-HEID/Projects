@@ -98,10 +98,11 @@
     }
 
     #btnShow {
+        flex: 1;
         font-size: small;
         width: 25%;
         margin-top: 60%;
-        margin-left: 37.5%;
+        margin-left: 35%;
     }
 }
 
