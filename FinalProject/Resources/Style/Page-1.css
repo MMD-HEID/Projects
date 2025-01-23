@@ -128,6 +128,31 @@
 .btnCls:hover {
     background-color: #009688;
 }
+.show{
+    display: flex;
+    animation: show .5s forwards;
+}
+
+@keyframes show {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.hide{
+    display: none;
+    animation: hide .5s forwards;
+}
+@keyframes hide {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 
 @media only screen and (min-width: 1280px) and (max-width: 3840px) {
 

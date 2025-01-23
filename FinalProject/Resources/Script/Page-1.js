@@ -56,10 +56,10 @@ planets.forEach((planet) => {
     planet.addEventListener("click", () => {
         const planetName = planet.getAttribute("data-info");
         if (planetName === "Hobbies") {
-            hobbies.style.display = "flex";
+            hobbies.classList.add("show");
         }
         if (planetName === "Contacts") {
-            contacts.style.display = "flex";
+            contacts.classList.add("show");
         }
     });
 });
@@ -67,9 +67,10 @@ planets.forEach((planet) => {
 closeButtons.forEach((closeButton) => {
     if (contacts.classList.contains("hidden") || hobbies.classList.contains("hidden")) {
         closeButton.addEventListener("click", () => {
-            hobbies.style.display = "none";
-            contacts.style.display = "none";
-
+            hobbies.classList.remove("show");
+            contacts.classList.remove("show");
+            // hobbies.style.display = "none";
+            // contacts.style.display = "none";
         });
     }
 });

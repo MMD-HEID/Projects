@@ -141,12 +141,10 @@ input:checked + .slider:before {
     transition: background-color 0.3s ease;
 }
 
-/* Highlight active dot */
 .divDot:hover {
     background-color: #00ADB5;
 }
 
-/* Main container */
 .divMain {
     padding-left: 1%;
 }
@@ -168,7 +166,7 @@ input:checked + .slider:before {
     display: flex;
 }
 
-@media only screen and (min-width: 1280px){
+@media only screen and (min-width: 1280px) {
 
 
     .divInfo {
@@ -187,7 +185,7 @@ input:checked + .slider:before {
         border-radius: 50%;
     }
 
-    .pPE , .pPP{
+    .pPE, .pPP {
         height: 50px;
         font-size: large;
     }
@@ -226,6 +224,7 @@ input:checked + .slider:before {
         height: 700px;
         border-radius: 50%;
     }
+
     .pPE, .pPP {
         font-size: xx-large;
         height: 250px;
@@ -286,7 +285,8 @@ input:checked + .slider:before {
         margin-left: 5px;
     }
 }
-.title{
+
+.title {
     color: gray;
     text-align: center;
 

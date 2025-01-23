@@ -1,3 +1,371 @@
 #link5 {
     color: #00ADB5;
 }
+
+/*_______________________________________________________________*/
+.divMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btnShowGame {
+    width: 200px;
+    height: 50px;
+    color: white;
+    background: #353535;
+    border: none;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+.btnShowGame:hover {
+    color: gray;
+    background: #151515;
+}
+
+.game {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: xxx-large;
+    color: white;
+}
+
+.background {
+    border: 5px solid #353535;;
+    border-radius: 20px;
+    background: rgba(73, 72, 72, 0.5);
+    width: 80%;
+    height: 80%;
+    /*margin-top: 3.5%;*/
+    /*margin-left: 10%;*/
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.square {
+    background: rgba(35, 35, 35, 0.70);;
+    margin-left: 30px;
+    border: 5px solid #353535;
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+}
+
+.square:hover {
+    background: rgba(80, 80, 80, 0.7);
+}
+
+.status {
+    margin-top: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+
+button.restart {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #00383a;
+    border: 3px #000000 solid;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button.restart:hover {
+    background-color: #008C9E;
+}
+
+/*-----------------------------cross-----------------------------*/
+/*_______________________________________________________________*/
+#cross1-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    /*background: rgb(255, 255, 255);*/
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross1-2 {
+    position: fixed;
+    border-right: 10px solid white;
+    transform: rotate(-45deg);
+    /*background: rgb(255, 255, 255);*/
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#cross2-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross2-2 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#cross3-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross3-2 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#cross4-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross4-2 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#cross5-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross5-2 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#cross6-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross6-2 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#cross7-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross7-2 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#cross8-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross8-2 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+#cross9-1 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#cross9-2 {
+    position: fixed;
+    border-right: 10px white solid;
+    transform: rotate(-45deg);
+    width: 50px;
+    height: 100px;
+    margin-left: 170px;
+    margin-top: 40px;
+}
+
+/*----------------------circles----------------------------------*/
+/*_______________________________________________________________*/
+#circle-1 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#circle-2 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#circle-3 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#circle-4 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#circle-5 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#circle-6 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#circle-7 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#circle-8 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+#circle-9 {
+    position: fixed;
+    border: 10px white solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+/*_______________________________________________________________*/
+.hidden {
+    display: none;
+}
