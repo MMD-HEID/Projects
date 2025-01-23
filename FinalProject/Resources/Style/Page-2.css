@@ -80,18 +80,16 @@ input:checked + .slider:before {
 .divInfo {
     flex: 4;
     width: 50%;
-    display: none; /* Hide by default */
+    height: 200px;
+    display: none;
     flex-direction: column;
     align-content: center;
     text-align: center;
     align-items: center;
     flex-wrap: wrap;
-    /*padding: 20px;*/
     border-radius: 10px;
     transition: opacity 0.5s ease;
-    min-height: 400px;
-    height: 400px;
-    /*border: #222831 solid 1px;*/
+    min-height: 350px;
 }
 
 .divInfo.active {
@@ -99,38 +97,35 @@ input:checked + .slider:before {
     opacity: 1;
 }
 
-/* Images within slides */
 .imgP1, .imgP2, .imgP3, .imgP4 {
     border: 5px #222831 solid;
     width: 30%;
     border-radius: 50%;
-    margin-bottom: 20px; /* Add spacing below the image */
+    margin-bottom: 20px;
 }
 
 .imgP4, .imgP3, .imgP2, .imgP1 {
-    height: 250px; /* Ensure aspect ratio is maintained */
+    height: 250px;
+    width: 250px;
 }
 
-/* Text content in slides */
 .pPE, .pPP {
     color: white;
     width: 50%;
-    margin-top: 10px; /* Add spacing above text */
+    margin-top: 10px;
     font-family: "B Nazanin", "B Esfehan", serif;
 }
 
 
-/* Dot navigation container */
 .dotContainer {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: row;
-    margin-top: 15px;
+    margin-top: 1px;
 }
 
-/* Individual dot */
 .divDot {
     width: 10px;
     height: 10px;
@@ -157,7 +152,6 @@ input:checked + .slider:before {
     font-weight: bold;
 }
 
-/* Hidden and visible text classes */
 .hidden {
     display: none;
 }
@@ -166,12 +160,12 @@ input:checked + .slider:before {
     display: flex;
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1024px) {
 
 
     .divInfo {
         width: 50%;
-        height: 80%;
+        height: 50%;
         margin: 2%;
         display: block;
         flex-direction: column;
@@ -180,33 +174,33 @@ input:checked + .slider:before {
     }
 
     .imgP1, .imgP2, .imgP3, .imgP4 {
-        width: 400px;
-        height: 400px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
     }
 
     .pPE, .pPP {
         height: 50px;
-        font-size: large;
+        font-size: medium;
     }
 
     .dotContainer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 2%;
+        margin-top: 0.5%;
     }
 
     .divDot {
-        width: 10px;
-        height: 10px;
+        width: 5px;
+        height: 5px;
         background-color: dimgray;
         border-radius: 50%;
         margin-left: 5px;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (max-width: 768px) {
 
 
     .divInfo {
@@ -220,8 +214,8 @@ input:checked + .slider:before {
     }
 
     .imgP1, .imgP2, .imgP3, .imgP4 {
-        width: 700px;
-        height: 700px;
+        width: 500px;
+        height: 500px;
         border-radius: 50%;
     }
 
@@ -246,8 +240,11 @@ input:checked + .slider:before {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
 
+    .title{
+        font-size: large;
+    }
 
     .divInfo {
         width: 70%;
@@ -260,13 +257,13 @@ input:checked + .slider:before {
     }
 
     .pPE, .pPP {
-        height: 550px;
-        font-size: xxx-large;
+        height: 150px;
+        font-size: large;
     }
 
     .imgP1, .imgP2, .imgP3, .imgP4 {
-        width: 400px;
-        height: 400px;
+        width: 150px;
+        height: 150px;
         border-radius: 50%;
     }
 
@@ -278,8 +275,8 @@ input:checked + .slider:before {
     }
 
     .divDot {
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
         background-color: dimgray;
         border-radius: 50%;
         margin-left: 5px;

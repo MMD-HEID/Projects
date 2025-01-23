@@ -3,7 +3,7 @@
 }
 
 /*_______________________________________________________________*/
-.divMain{
+.divMain {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +20,7 @@
     font-size: xx-large;
     border-radius: 10px;
 }
+
 .btnShowGame:hover {
     color: gray;
     background: #151515;
@@ -281,7 +282,7 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
@@ -291,7 +292,7 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
@@ -301,7 +302,7 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
@@ -311,7 +312,7 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
@@ -321,7 +322,7 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
@@ -331,7 +332,7 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
@@ -341,7 +342,7 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
@@ -351,7 +352,7 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
@@ -361,11 +362,744 @@ button.restart:hover {
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    margin-left: 150px;
+    margin-left: 25px;
     margin-top: 20px;
 }
 
 /*_______________________________________________________________*/
 .hidden {
     display: none;
+}
+
+@media (max-width: 1024px) {
+    .square {
+        width: 225px;
+        height: 225px;
+    }
+
+    #cross1-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross1-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross2-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross2-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross3-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross3-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross4-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross4-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross5-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross5-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross6-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross6-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross7-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross7-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross8-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross8-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross9-1 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #cross9-2 {
+        position: fixed;
+        border-right: 15px white solid;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 175px;
+        margin-left: 100px;
+        margin-top: 15px;
+    }
+
+    #circle-2 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        margin-left: 5px;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .square {
+        width: 160px;
+        height: 160px;
+    }
+
+    #cross1-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross1-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross2-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross2-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross3-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross3-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross4-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross4-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross5-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross5-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross6-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross6-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross7-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross7-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross8-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross8-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross9-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #cross9-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 100px;
+        margin-left: 70px;
+        margin-top: 30px;
+    }
+
+    #circle-1 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .square {
+        width: 75px;
+        height: 75px;
+        margin-left: 17px;
+        margin-top: 15px;
+    }
+
+    .background {
+        padding: 0;
+        height: 300px;
+        width: 300px;
+    }
+
+    #cross1-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross1-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross2-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross2-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross3-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross3-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross4-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross4-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross5-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross5-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross6-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross6-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross7-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross7-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross8-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross8-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross9-1 {
+        position: fixed;
+        border-right: 5px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #cross9-2 {
+        position: fixed;
+        border-right: 5px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 1px;
+        height: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    #circle-1 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    #circle-2 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    #circle-3 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    #circle-4 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    #circle-5 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    #circle-6 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    #circle-7 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    #circle-8 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
+
+    #circle-9 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        margin-left: 3px;
+        margin-top: 3px;
+    }
 }
