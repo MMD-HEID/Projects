@@ -90,291 +90,327 @@ button.restart:hover {
     background-color: #008C9E;
 }
 
-/*-----------------------------cross-----------------------------*/
-/*_______________________________________________________________*/
-#cross1-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    /*background: rgb(255, 255, 255);*/
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross1-2 {
-    position: fixed;
-    border-right: 10px solid white;
-    transform: rotate(-45deg);
-    /*background: rgb(255, 255, 255);*/
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-#cross2-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross2-2 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(-45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-#cross3-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross3-2 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(-45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-#cross4-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross4-2 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(-45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-#cross5-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross5-2 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(-45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-#cross6-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross6-2 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(-45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-#cross7-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross7-2 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(-45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-#cross8-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross8-2 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(-45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-#cross9-1 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 10px;
-}
-
-#cross9-2 {
-    position: fixed;
-    border-right: 10px white solid;
-    transform: rotate(-45deg);
-    width: 50px;
-    height: 100px;
-    margin-left: 170px;
-    margin-top: 40px;
-}
-
-/*----------------------circles----------------------------------*/
-/*_______________________________________________________________*/
-#circle-1 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-#circle-2 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-#circle-3 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-#circle-4 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-#circle-5 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-#circle-6 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-#circle-7 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-#circle-8 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-#circle-9 {
-    position: fixed;
-    border: 10px white solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-
-/*_______________________________________________________________*/
 .hidden {
     display: none;
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
+    .background {
+        width: 750px;
+        height: 750px;
+    }
+
     .square {
-        width: 225px;
-        height: 225px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #cross1-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross1-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+    #cross2-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross2-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+    #cross3-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross3-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+    #cross4-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross4-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+    #cross5-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross5-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+    #cross6-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross6-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+    #cross7-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross7-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+    #cross8-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross8-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+    #cross9-1 {
+        position: fixed;
+        border-right: 10px white solid;
+        transform: rotate(45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 25px;
+    }
+
+    #cross9-2 {
+        position: fixed;
+        border-right: 10px solid white;
+        transform: rotate(-45deg);
+        /*background: rgb(255, 255, 255);*/
+        width: 50px;
+        height: 100px;
+        margin-left: 60px;
+        margin-top: 55px;
+    }
+
+
+
+    #circle-1 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #circle-2 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #circle-3 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #circle-4 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #circle-5 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #circle-6 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #circle-7 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #circle-8 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #circle-9 {
+        position: fixed;
+        border: 10px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: x-large;
+    }
+
+    .status {
+        font-size: large;
+    }
+
+    .restart {
+        font-size: medium;
+        height: 40px;
+    }
+
+    .background {
+        width: 500px;
+        height: 500px;
+    }
+
+    .square {
+        width: 125px;
+        height: 125px;
     }
 
     #cross1-1 {
@@ -383,9 +419,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross1-2 {
@@ -394,9 +430,9 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross2-1 {
@@ -405,9 +441,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross2-2 {
@@ -416,9 +452,9 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross3-1 {
@@ -427,9 +463,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross3-2 {
@@ -438,9 +474,9 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross4-1 {
@@ -449,9 +485,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross4-2 {
@@ -460,9 +496,9 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross5-1 {
@@ -471,9 +507,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross5-2 {
@@ -482,9 +518,9 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross6-1 {
@@ -493,9 +529,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross6-2 {
@@ -504,9 +540,9 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross7-1 {
@@ -515,9 +551,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross7-2 {
@@ -526,9 +562,9 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross8-1 {
@@ -537,9 +573,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross8-2 {
@@ -548,9 +584,9 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross9-1 {
@@ -559,9 +595,9 @@ button.restart:hover {
         transform: rotate(45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
     }
 
     #cross9-2 {
@@ -570,23 +606,108 @@ button.restart:hover {
         transform: rotate(-45deg);
         /*background: rgb(255, 255, 255);*/
         width: 1px;
-        height: 175px;
-        margin-left: 100px;
-        margin-top: 15px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 7.5px;
+    }
+
+    #circle-1 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 
     #circle-2 {
         position: fixed;
         border: 15px white solid;
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         margin-left: 5px;
-        margin-top: 0;
+        margin-top: 5px;
+    }
+
+    #circle-3 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #circle-4 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #circle-5 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #circle-6 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #circle-7 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #circle-8 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+
+    #circle-9 {
+        position: fixed;
+        border: 15px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-top: 5px;
     }
 }
 
-@media (max-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    .background {
+        width: 650px;
+        height: 650px;
+    }
+
     .square {
         width: 160px;
         height: 160px;
@@ -794,10 +915,90 @@ button.restart:hover {
         position: fixed;
         border: 5px white solid;
         border-radius: 50%;
-        width: 60px;
-        height: 60px;
-        margin-left: 0;
-        margin-top: 0;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #circle-2 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #circle-3 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #circle-4 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #circle-5 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #circle-6 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #circle-7 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #circle-8 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #circle-9 {
+        position: fixed;
+        border: 5px white solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: 25px;
+        margin-top: 25px;
     }
 }
 
