@@ -1,0 +1,91 @@
+:root {
+    --fltMenu: left;
+    --paddingShared: 10px 12px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: #505050;
+    height: 50px;
+}
+
+.drop-mov {
+    float: var(--fltMenu);
+    overflow: hidden;
+}
+
+.nav a {
+    float: var(--fltMenu);
+    font-size: large;
+    padding: var(--paddingShared);
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+.drop-mov .btn-mov {
+    font-size: inherit;
+    border: none;
+    outline: none;
+    color: #8e8e8e;
+    padding: var(--paddingShared);
+    background-color: inherit;
+}
+
+.nav a:hover, .drop:hover .btn-mov {
+    background-color: darkgray;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: var(--fltMenu);
+}
+
+.content .header {
+    background-color: darkgray;
+    padding: 10px;
+    color: white;
+}
+
+.drop-mov:hover .content {
+    display: block;
+}
+
+.row{
+    height: 300px;
+    overflow: auto;
+    background-color: darkgray;
+}
+
+.column {
+    float: var(--fltMenu);
+    width: 33.33%;
+    padding: 10px;
+    height: 250px;
+}
+
+.column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: var(--fltMenu);;
+}
+
+.column a:hover {
+    background-color: gray;
+}

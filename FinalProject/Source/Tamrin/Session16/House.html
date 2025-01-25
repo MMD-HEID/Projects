@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House</title>
+</head>
+<body>
+<svg width="800" height="800">
+    <defs>
+        <linearGradient id="windowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:white; stop-opacity:1"></stop>
+            <stop offset="50%" style="stop-color:lightblue; stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:white; stop-opacity:1"></stop>
+        </linearGradient>
+    </defs>
+    <!--       دودکش        -->
+    <rect x="180" y="120" width="25" height="100" fill="#3b190b"></rect>
+    <!--    دیوار روبه رو   -->
+    <rect x="150" y="200" width="150" height="125" fill="#120905"></rect>
+    <!--    دیوار کنار      -->
+    <polygon points="300,200 400,170 400,270 300,325" fill="#0a0503"></polygon>
+    <!--   پنجره کنار       -->
+    <polygon points="310,210 390,195 390,260 310,300" fill="url(#windowGradient)" stroke="black"
+             stroke-width="2"></polygon>
+    <!--      سقف روبه رو   -->
+    <polygon points="135,200 225,140 315,200" fill="#1f1d1b"></polygon>
+    <!--   پنجره روبه رو    -->
+    <rect x="160" y="215" height="15" width="15" fill="url(#windowGradient)" stroke="black" stroke-width="2"></rect>
+    <rect x="160" y="235" height="30" width="15" fill="url(#windowGradient)" stroke="black" stroke-width="2"></rect>
+    <rect x="160" y="270" height="15" width="15" fill="url(#windowGradient)" stroke="black" stroke-width="2"></rect>
+    <rect x="180" y="215" height="30" width="15" fill="url(#windowGradient)" stroke="black" stroke-width="2"></rect>
+    <rect x="180" y="270" height="15" width="15" fill="url(#windowGradient)" stroke="black" stroke-width="2"></rect>
+    <rect x="180" y="250" height="15" width="15" fill="url(#windowGradient)" stroke="black" stroke-width="2"></rect>
+    <rect x="250" y="215" height="70" width="35" fill="url(#windowGradient)" stroke="black" stroke-width="2"></rect>
+
+    <circle r="15" cx="225" cy="175" fill="url(#windowGradient)" stroke="black" stroke-width="2"></circle>
+    <!--        سقف کنار    -->
+    <polygon points="315,200 415,180 350,140 225,140" fill="#24221f"></polygon>
+    <!--        در          -->
+    <rect x="207.5" y="265" width="25px" height="60px" fill="#3b2318"></rect>
+    <!--      دستگیره در    -->
+    <circle r="3" fill="gold" cx="225" cy="295"></circle>
+
+</svg>
+
+</body>
+</html>

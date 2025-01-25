@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f5;
+}
+
+.Father {
+    position: relative;
+    left: 10%;
+}
+
+.B-box {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding: 120px 0 0 6px;
+}
+
+.ball-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ball styles with transform-origin set for rotation from top */
+.ball {
+    height: 40px;
+    width: 40px;
+    background: radial-gradient(circle, #ffcc33, #cc9900);
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transform-origin: top; /* Rotates around the top for pendulum effect */
+}
+
+/* First and Last balls */
+.First.ball, .Last.ball {
+    transform-origin: top; /* Ensures rotation from the top */
+}
+
+/* Animate the first ball */
+.First.ball {
+    background: radial-gradient(circle, #ff6666, #cc0000);
+    animation: firstball 2s alternate ease-in-out infinite;
+}
+
+@keyframes firstball {
+    0% {
+        transform: rotate(30deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+}
+.last-line{
+    animation: lastline 2s alternate ease-in-out infinite;
+    transform-origin: top;
+}
+@keyframes lastline {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+.first-line{
+    animation: firstline 2s alternate ease-in-out infinite;
+    transform-origin: top;
+}
+@keyframes firstline {
+    0% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+}
+/* Animate the last ball */
+.Last.ball {
+    background: radial-gradient(circle, #6699ff, #0033cc);
+    animation: lastball 2s alternate ease-in-out infinite;
+}
+
+@keyframes lastball {
+    50% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+/* Line styling */
+.line {
+    width: 4px;
+    background-color: #333333;
+    position: fixed;
+    top: 0;
+    height: 150px;
+}
+
+/* Adjust the height of middle lines */
+.ball-container .line {
+    height: 120px;
+}

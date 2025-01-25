@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>SignInPage</title>
+</head>
+<body>
+    <label for="FName">نام</label>
+    <input id="FName" type="text" title="نام خود را وارد کنید" /><br/>
+
+
+    <label for="LName">نام خانوادگی</label>
+    <input id="LName" type="text" title="نام خانوادگی خود را وارد کنید"/><br/>
+
+
+    <label for="ID">کد ملی</label>
+    <input id="ID" type="text" title="کد ملی خود را وارد کنید" /><br/><br/>
+
+
+    <label for="Username">نام کاربری</label>
+    <input id="Username" required="required" type="text" title="نام کاربری خود را وارد کنید"/><br/>
+
+
+    <label for="Password">رمز عبود</label>
+    <input id="Password" required="required" type="password" minlength="8" title="رمز عبور خود را وارد کنید"><br/><br/>
+
+
+    جنسیت خود را انتخاب کنید<br/>
+    <label for="Male"></label>
+    <input id="Male" type="radio" name="Gender" value="0"/>Female <br/>
+    <label for="Female"></label>
+    <input id="Female" type="radio" name="Gender" value="1" />Male <br/><br/>
+
+
+    <label for="City">شهر</label>
+    <select name="City" id="City">
+        <optgroup label="City">
+            <option value="1">اصفهان</option>
+            <option value="2">شاهین شهر</option>
+            <option value="3">خمینی شهر</option>
+            <option value="4">فلاورجان</option>
+            <option value="5">فولادشهر</option>
+        </optgroup>
+    </select>
+    <br/>
+
+    <label for="Address">آدرس</label>
+    <input id="Address" type="text" title="آدرس خود را وارد کنید" value="کوی ولی عصر، خیابان هدایت،... " width="600px"/><br/>
+
+    <label for="PCode">کد پستی</label>
+    <input id="PCode" type="text" title="کد پستی خود را وارد کنید"/><br/><br/>
+</body>
+</html>

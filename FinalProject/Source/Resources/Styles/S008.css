@@ -1,0 +1,34 @@
+body, html, form{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@keyframes btn1 {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+}
+div{
+    background-color: #505050;
+    height: 100px;
+    display: block;
+}
+#btn1 {
+    border: none;
+    background-color: #8e8d89;
+    display: none;
+    font: bold medium arial;
+}
+
+#chk1:checked ~ #btn1{
+    display: inline;
+    animation: btn1 10s linear 1;
+}
